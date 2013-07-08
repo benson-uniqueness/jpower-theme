@@ -1,0 +1,101 @@
+ 	<div id="header">
+		<div class="logo"><a href="index.html"><img src="/JPower-theme/images/jpower/jpower-logo.jpg" width="164" /></a></div>    
+  		<div class="langauge">
+  	  		<div class="lang-inside"><a href="/web/guest/$page.getName($locale)"><img src="/JPower-theme/images/jpower/lang-07_01.jpg" height="25" id="Image7" onmouseover="MM_swapImage('Image7','','/JPower-theme/images/jpower/lang-07-over_01.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+  	  		<div class="lang-inside"><img src="/JPower-theme/images/jpower/lang-07_02.jpg" alt="" height="25" /></div>
+  	  		<div class="lang-inside"><a href="/zh_TW/web/guest/$page.getName($locale)"><img src="/JPower-theme/images/jpower/lang-07_03.jpg" alt="" height="25" id="Image8" onmouseover="MM_swapImage('Image8','','/JPower-theme/images/jpower/lang-07-over_03.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+    	</div>
+  		<div class="menu">
+  	  		<div class="menutab"><a href=""><img src="/JPower-theme/images/jpower/menu-1_01.png" height="20" id="Image1" onmouseover="MM_swapImage('Image1','','/JPower-theme/images/jpower/menu-2_01.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+  	  		<div class="menutab2"><a href=""><img src="/JPower-theme/images/jpower/menu-1_02.png" height="20" id="Image2" onmouseover="MM_swapImage('Image2','','/JPower-theme/images/jpower/menu-2_02.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+			 <div class="menutab3">
+				<style type="text/css"></style>
+		<script type="text/javascript" src="/JPower-theme/js/jpower/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {	
+				$('#nav li').hover(
+					function () {
+					//show its submenu
+						$('ul', this).slideDown(350);
+					}, 
+					function () {
+					//hide its submenu
+						$('ul', this).slideUp(350);	
+					}
+				);
+			});
+		</script>
+
+		<ul id='nav'>
+			<li> <a href='#'><img src="/JPower-theme/images/jpower/menu-1_03.png" height="20" id="Image3" onmouseover="MM_swapImage('Image3','','/JPower-theme/images/jpower/menu-2_03.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+				<ul>
+					<li style='background-color:#ffffff;'><a href=collection.html>Collection</a></li>
+					<li style='background-color:#ffffff;'><a href=project.html>Projects</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		</div><!-- menutab3 -->
+		<div class="menutab4">
+			<style type="text/css"></style>
+		<script type="text/javascript" src="/JPower-theme/js/jpower/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {	
+				$('#nav2 li').hover(
+					function () {
+						//show its submenu
+						$('ul', this).slideDown(350);
+					}, 
+					function () {
+						//hide its submenu
+						$('ul', this).slideUp(350);	
+					}
+				);
+			});
+		</script>
+
+		<ul id='nav2'>
+			<li> <a href='#'><img src="/JPower-theme/images/jpower/menu-1_04.png" height="20" id="Image4" onmouseover="MM_swapImage('Image4','','/JPower-theme/images/jpower/menu-2_04.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+				<ul>
+					<li style='background-color:#ffffff;'><a href=collection2.html>Collection</a></li>
+					<li style='background-color:#ffffff;'><a href=application.html>Application</a></li>
+				</ul>
+			</li>
+			</ul>
+		</div><!-- menutab 4 -->
+
+		<div class="menutab5">
+
+			<style type="text/css"></style>
+		<script type="text/javascript" src="/JPower-theme/js/jpower/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {	
+				$('#nav3 li').hover(
+					function () {
+					//show its submenu
+						$('ul', this).slideDown(350);
+					}, 
+					function () {
+					//hide its submenu
+						$('ul', this).slideUp(350);	
+					}
+				);
+			});
+		</script>
+
+		<ul id='nav3'>
+			<li> <a href='#'><img src="/JPower-theme/images/jpower/menu-1_05.jpg" height="20" id="Image5" onmouseover="MM_swapImage('Image5','','/JPower-theme/images/jpower/menu-2_05.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+				<ul>
+					<li style='background-color:#ffffff;'><a href="/web/guest/services">Services</a></li>
+					<li style='background-color:#ffffff;'><a href="/web/guest/team">Team</a></li>
+					<li style='background-color:#ffffff;'><a href="/web/guest/faq">FAQ</a></li>
+				</ul>
+			</li>
+		</ul>
+		</div><!-- menutab 5 -->
+  	  <div class="menutab6"><a href='#'><img src="/JPower-theme/images/jpower/menu-1_06.png" height="20" id="Image6" onmouseover="MM_swapImage('Image6','','/JPower-theme/images/jpower/menu-2_06.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+		</div><!-- menutab 6 -->
+		
+
+   	</div> <!-- end of menu  -->
+    </div>  <!-- end of header  -->

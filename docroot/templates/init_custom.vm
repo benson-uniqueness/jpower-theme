@@ -1,0 +1,5 @@
+#*
+This file allows you to override and define new Velocity variables.
+*#
+#set ($is_english = true)
+#set ($is_chinese = false)
